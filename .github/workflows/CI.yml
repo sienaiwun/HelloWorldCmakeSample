@@ -24,7 +24,3 @@ jobs:
         cd build
         cmake .. 
 
-    - name: Build Solution (windows)
-      run: |
-        cd build
-        MSBuild.exe CMakeHelloWorld.sln
